@@ -12,6 +12,7 @@ pip install -r requirements.txt
 
 ## 创建字典
 下载数据，将数据放入"./data/"目录中。
+
 运行
 ```{bash}
 python creat_dict.py
