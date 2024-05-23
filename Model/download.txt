@@ -1,0 +1,3 @@
+https://huggingface.co/hfl/chinese-roberta-wwm-ext/resolve/main/flax_model.msgpack
+https://huggingface.co/hfl/chinese-roberta-wwm-ext/resolve/main/pytorch_model.bin
+https://huggingface.co/hfl/chinese-roberta-wwm-ext/resolve/main/tf_model.h5
