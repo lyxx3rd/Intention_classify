@@ -105,7 +105,7 @@ for epoch in range(EPOCHS):
             model.train()
             if accu_score > accu_max:
                 accu_max = accu_score
-                torch.save(model, f"./Model_save/classify_{accu_score:.5f}.pt")
+                torch.save(model, f"./Model_save/classify_model.pt")
             if epoch > 0:
                 LR = LR * 0.6
 
