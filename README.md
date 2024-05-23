@@ -1,9 +1,14 @@
 # Intention_classify
 # 意图识别算法
+
 演示数据来源于**阿里天池比赛**
+
 比赛链接：https://tianchi.aliyun.com/competition/entrance/532044/introduction?spm=a2c22.12281949.0.0.605a3b74sTbrLs
+
 # 训练集（IMCS-DAC_train.json）/验证集（IMCS-DAC_dev.json）的格式为：
+
 数据样式为：
+```
 {
   "example_id1": [            # 样本id
         {
@@ -25,7 +30,7 @@
   ],
   ...
 }
-
+```
 
 ## 流程：
 创建字典-处理数据-训练模型-推理预测结果
