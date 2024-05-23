@@ -35,7 +35,16 @@
 ```
 
 ## 流程：
-创建字典-处理数据-训练模型-推理预测结果
+下载数据/模型-创建字典-处理数据-训练模型-推理预测结果
+
+## 下载模型
+```
+cd Model
+git clone https://huggingface.co/hfl/chinese-roberta-wwm-ext
+
+## 下载失败时使用(先将download.txt挪入chinese-roberta-wwm-ext)
+wget -i download.txt
+```
 
 ## 安装运行环境
 运行
