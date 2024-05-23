@@ -58,7 +58,7 @@ class DataItem:
 
 
 tokenizer = AutoTokenizer.from_pretrained(model_path)
-model = torch.load("./Model_save/classify_0.85400.pt")
+model = torch.load("./Model_save/classify_model.pt")
 model.to(DEVICE)
 test_data_loader = DataLoader(DatasetClassify("./data/IMCS-DAC/test_list_data.json"), batch_size=32, shuffle=False,
                              collate_fn=collator_fn)
