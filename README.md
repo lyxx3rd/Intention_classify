@@ -5,7 +5,9 @@
 
 比赛链接：https://tianchi.aliyun.com/competition/entrance/532044/introduction?spm=a2c22.12281949.0.0.605a3b74sTbrLs
 
-# 训练集（IMCS-DAC_train.json）/验证集（IMCS-DAC_dev.json）的格式为：
+训练集:IMCS-DAC_train.json
+
+验证集:IMCS-DAC_dev.json
 
 数据样式为：
 ```
