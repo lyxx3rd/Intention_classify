@@ -82,7 +82,7 @@ python train.py
 
 运行
 ```{bash}
-python dev.py
+python predict.py
 ```
 生成结果会保存在“./outputs/”文件夹中。
 
